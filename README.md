@@ -27,14 +27,15 @@ If you plan on **contributing** to the library instead, you will need to do a ed
 
 ```
 # Optional step if using conda
-conda create -n fastaudio python=3.7
+conda create -n fastaudio python=3.11
 conda activate fastaudio
 ```
 
 ```
 # Editable install
-git clone https://github.com/fastaudio/fastaudio.git
+git clone https://github.com/velaia/fastaudio.git
 cd fastaudio
+git checkout update-to-latest
 pip install -e '.[dev,testing]'
 pre-commit install
 ```
